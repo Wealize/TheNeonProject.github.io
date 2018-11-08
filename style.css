@@ -146,7 +146,7 @@ pink {
   padding: 4em 0em;
 }
 #work .how-we-work {
-  background-image: url("_include/img/work@2x.png");
+  background-image: url("/static/img/work@2x.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -178,7 +178,7 @@ pink {
   height: 800px;
 }
 #team .the-team {
-  background-image: url("_include/img/the-team@2x.png");
+  background-image: url("/static/img/the-team@2x.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -258,14 +258,14 @@ pink {
   border-bottom: 5px solid #ffffff;
 }
 .blockchain {
-  background-image: url("_include/img/icon-blockchain.svg");
+  background-image: url("/static/img/icon-blockchain.svg");
   background-size: contain;
   width: 90px;
   height: 120px;
   margin: 17px 20px;
 }
 .conversational {
-  background-image: url("_include/img/icon-conversational.svg");
+  background-image: url("/static/img/icon-conversational.svg");
   background-size: contain;
   width: 96px;
   height: 110px;
@@ -273,14 +273,14 @@ pink {
   margin: 20px;
 }
 .data {
-  background-image: url("_include/img/icon-data.svg");
+  background-image: url("/static/img/icon-data.svg");
   background-size: contain;
   width: 90px;
   height: 99px;
   margin: 10px 0px;
 }
 .consulting {
-  background-image: url("_include/img/icon-consulting.svg");
+  background-image: url("/static/img/icon-consulting.svg");
   background-size: contain;
   width: 90px;
   height: 120px;
@@ -288,7 +288,7 @@ pink {
   margin: 20px;
 }
 .innovation {
-  background-image: url("_include/img/icon-innovation.svg");
+  background-image: url("/static/img/icon-innovation.svg");
   background-size: contain;
   width: 65px;
   height: 120px;
@@ -296,7 +296,7 @@ pink {
   margin: 20px;
 }
 .improvement {
-  background-image: url("_include/img/icon-improvement.svg");
+  background-image: url("/static/img/icon-improvement.svg");
   background-size: contain;
   width: 82px;
   height: 120px;
