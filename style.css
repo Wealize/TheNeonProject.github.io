@@ -392,3 +392,43 @@ pink {
 .navbar-dark .navbar-toggler:visited {
   border: 0px;
 }
+
+/* --------- Developer new changes --------- */
+
+.dark-section {
+  background-color: #272859;
+  padding-bottom: 70px;
+}
+
+.text-inverse {
+  color: white;
+}
+
+.chatbots-es {
+  margin-bottom: 1.0em;
+}
+
+.chatbots-logo {
+  width: 300px;
+  margin-top: 90px;
+  margin-left: 50px;
+}
+
+.neon-button {
+  color: #272859;
+  background-color: #FFFF02;
+  padding: 15px 30px;
+  margin-left: 15px;
+  border-bottom: none;
+}
+
+.podcast-iframe {
+  margin-top: 90px;
+  padding-left: 50px;
+}
+
+.subscribe-spotify {
+  margin-left: 150px;
+}
+
+/* --------- End Developer new changes --------- */
