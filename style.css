@@ -431,4 +431,8 @@ pink {
   margin-left: 150px;
 }
 
+.whitepaper-block {
+  background-image: '/static/img/whitepaper-block-background.jpg';
+}
+
 /* --------- End Developer new changes --------- */
