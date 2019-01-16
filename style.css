@@ -404,7 +404,12 @@ pink {
 }
 
 .text-inverse {
-  color: white;
+  color: white !important;
+}
+
+.legal-title {
+  padding-bottom: 30px;
+  font-size: 1.2rem;
 }
 
 .chatbots-es {
@@ -434,7 +439,20 @@ pink {
 }
 
 .whitepaper-block {
-  background-image: '/static/img/whitepaper-block-background.jpg';
+  background-image: url('/static/img/whitepaper-block-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  border: none;
+}
+
+.whitepaper-title {
+  margin-bottom: 10px;
 }
 
 .spotify-button {
