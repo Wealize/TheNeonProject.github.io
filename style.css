@@ -397,6 +397,9 @@ pink {
 
 .dark-section {
   background-color: #272859;
+}
+
+.secondary-section {
   padding-bottom: 70px;
 }
 
@@ -411,7 +414,6 @@ pink {
 .chatbots-logo {
   width: 300px;
   margin-top: 90px;
-  margin-left: 50px;
 }
 
 .neon-button {
@@ -433,6 +435,11 @@ pink {
 
 .whitepaper-block {
   background-image: '/static/img/whitepaper-block-background.jpg';
+}
+
+.spotify-button {
+  margin-top: 22px;
+  margin-left: 143px;
 }
 
 /* --------- End Developer new changes --------- */
