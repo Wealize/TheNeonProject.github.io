@@ -246,7 +246,7 @@ pink {
   display: inline-flex;
   text-decoration: none;
   float: right;
-  padding-top: 3.6em;
+  padding-top: 1.2em;
   padding-right: 2em;
 }
 #footer .footer-blue .nav-item a {
@@ -443,7 +443,7 @@ pink {
   background-repeat: no-repeat;
   background-position: center;
   padding: 30px 50px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-align: center;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -451,13 +451,18 @@ pink {
   border: none;
 }
 
-.whitepaper-title {
-  margin-bottom: 10px;
+.whitepaper-header {
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 .spotify-button {
   margin-top: 22px;
   margin-left: 143px;
+}
+
+.footer-logo {
+  margin-top: 8px;
 }
 
 /* --------- End Developer new changes --------- */
