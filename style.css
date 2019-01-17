@@ -246,7 +246,7 @@ pink {
   display: inline-flex;
   text-decoration: none;
   float: right;
-  padding-top: 3.6em;
+  padding-top: 1.2em;
   padding-right: 2em;
 }
 #footer .footer-blue .nav-item a {
@@ -392,3 +392,77 @@ pink {
 .navbar-dark .navbar-toggler:visited {
   border: 0px;
 }
+
+/* --------- Developer new changes --------- */
+
+.dark-section {
+  background-color: #272859;
+}
+
+.secondary-section {
+  padding-bottom: 70px;
+}
+
+.text-inverse {
+  color: white !important;
+}
+
+.legal-title {
+  padding-bottom: 30px;
+  font-size: 1.2rem;
+}
+
+.chatbots-es {
+  margin-bottom: 1.0em;
+}
+
+.chatbots-logo {
+  width: 300px;
+  margin-top: 90px;
+}
+
+.neon-button {
+  color: #272859;
+  background-color: #FFFF02;
+  padding: 15px 30px;
+  margin-left: 15px;
+  border-bottom: none;
+}
+
+.podcast-iframe {
+  margin-top: 90px;
+  padding-left: 50px;
+}
+
+.subscribe-spotify {
+  margin-left: 150px;
+}
+
+.whitepaper-block {
+  background-image: url('/static/img/whitepaper-block-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  border: none;
+}
+
+.whitepaper-header {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.spotify-button {
+  margin-top: 22px;
+  margin-left: 143px;
+}
+
+.footer-logo {
+  margin-top: 8px;
+}
+
+/* --------- End Developer new changes --------- */
