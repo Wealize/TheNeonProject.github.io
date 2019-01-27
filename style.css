@@ -465,4 +465,8 @@ pink {
   margin-top: 8px;
 }
 
+.no-padding {
+  padding: 0px;
+}
+
 /* --------- End Developer new changes --------- */
