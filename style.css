@@ -439,6 +439,7 @@ pink {
 }
 
 .whitepaper-block {
+  margin: auto;
   background-image: url('/static/img/whitepaper-block-background.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -451,6 +452,16 @@ pink {
   border: none;
 }
 
+.whitepaper-block div {
+  display: flex;
+  justify-content:
+  center; padding: 0px;
+}
+
+.whitepaper-block  div  a {
+  flex-basis: 50%;
+}
+
 .whitepaper-header {
   margin-bottom: 20px;
   margin-top: 30px;
@@ -458,7 +469,9 @@ pink {
 
 .spotify-button {
   margin-top: 22px;
-  margin-left: 143px;
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .footer-logo {
