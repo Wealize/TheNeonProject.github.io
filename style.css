@@ -1,604 +1,612 @@
-                                @import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
-                            html,
-                            body {
-                                font-family: 'Lato', sans-serif;
-                            }
-                            
-                            h1,
-                            h2,
-                            h3,
-                            h4,
-                            h5,
-                            h6 p {
-                                font-family: 'Lato', sans-serif;
-                            }
-                            
-                            h1 {
-                                font-weight: 900;
-                                font-size: 50px;
-                                color: #272859;
-                                margin-top: 2em;
-                                padding-left: 12px;
-                            }
-                            
-                            h2 {
-                                font-size: 1.8em;
-                                font-weight: 900;
-                            }
-                            
-                            h3 {
-                                font-size: 1.6em;
-                                font-weight: 900;
-                                padding-top: 0.5em;
-                            }
-                            
-                            p {
-                                font-weight: 700;
-                                color: #272859;
-                            }
-                            
-                            a {
-                                font-family: 'Lato', sans-serif;
-                                color: #e8418f;
-                                font-weight: 700;
-                                border-bottom: 5px solid #e8418f;
-                                transition: all 0.3s ease 0s;
-                            }
-                            
-                            a:hover {
-                                color: #272859;
-                                border-bottom: 5px solid #272859;
-                            }
-                            
-                            pink {
-                                color: #e8418f;
-                            }
-                            
-                            .masthead .col-lg-6 {
-                                padding-right: 0px;
-                                padding-left: 0px;
-                            }
-                            
-                            .masthead .col-lg-6 img {
-                                width: 100%;
-                                height: 100%;
-                            }
-                            
-                            .masthead .box {
-                                background-color: #272859;
-                            }
-                            
-                            .masthead .icon-tnp {
-                                width: 200px;
-                                height: 200px;
-                            }
-                            
-                            .border-home {
-                                border-left: 20px solid #e8418f;
-                            }
-                            
-                            .border-home-end {
-                                border-left: 20px solid #e8418f;
-                                height: 5em;
-                            }
-                            
-                            .circle-home {
-                                position: absolute;
-                                left: -50px;
-                                top: 60px;
-                                width: 100px;
-                            }
-                            
-                            .welcome {
-                                position: absolute;
-                                color: #ffffff;
-                                font-size: 2.7vw;
-                                padding: 2em;
-                                bottom: 0px;
-                            }
-                            
-                            .welcome strong {
-                                font-size: 10vw;
-                            }
-                            /*---button---*/
-                            
-                            .btn-yellow {
-                                color: #272859;
-                                background-color: #ffff02;
-                                border-radius: none;
-                                padding: 0.6em 4em;
-                                font-weight: 900;
-                                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-                                transition: all 0.3s ease 0s;
-                                cursor: pointer;
-                                outline: none;
-                            }
-                            
-                            .btn-yellow:hover {
-                                background-color: #e8418f;
-                                box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
-                                transform: translateY(-7px);
-                                color: #ffffff;
-                                border-bottom: none;
-                            }
-                            
-                            .navbar-dark .navbar-nav .nav-link {
-                                color: #ffffff;
-                                border-bottom: 5px solid #e8418f;
-                                margin: 0 0.5em;
-                            }
-                            
-                            .navbar-dark .navbar-nav .nav-link:hover {
-                                color: #e8418f;
-                            }
-                            
-                            .navbar-dark .navbar-nav .nav-link:active {
-                                color: #e8418f;
-                            }
-                            
-                            .navbar-dark .navbar-nav .nav-link.active {
-                                color: #e8418f;
-                            }
-                            
-                            .navbar-dark .navbar-nav .nav-link:focus {
-                                color: #e8418f;
-                            }
-                            
-                            #logo {
-                                display: none;
-                                border-bottom: none;
-                            }
-                            
-                            #mainNav.navbar-shrink {
-                                box-shadow: 0px 0px 20px rgba(2, 4, 145, 0.4);
-                                background-color: #272859;
-                                transition: all 0.3s ease 0s;
-                            }
-                            /*--- about us ---*/
-                            
-                            #technology .title {
-                                border-left: 5px solid #e8418f;
-                                padding-top: 5px;
-                            }
-                            
-                            #technology .text-box .img {
-                                width: 100%;
-                            }
-                            
-                            #technology .text-box p {
-                                max-width: 368px;
-                            }
-                            
-                            #technology .image-right-box {
-                                text-align: right;
-                            }
-                            
-                            #technology .space {
-                                padding: 4em 0em;
-                            }
-                            
-                            #work .how-we-work {
-                                background-image: url("./static/img/work@2x.png");
-                                background-position: center;
-                                background-repeat: no-repeat;
-                                background-size: cover;
-                                height: 500px;
-                            }
-                            
-                            #work .how-we-work .box-services {
-                                padding-bottom: 4em;
-                            }
-                            
-                            #work .how-we-work .box-services .title {
-                                border-left: 5px solid #e8418f;
-                                padding-top: 5px;
-                            }
-                            
-                            #work .box {
-                                padding-top: 3em;
-                            }
-                            
-                            #work .box .icons {
-                                height: 150px;
-                            }
-                            
-                            #work .box .icons img {
-                                padding-top: 1em;
-                            }
-                            
-                            #work .box h2,
-                            #work .box p,
-                            #work .box img {
-                                text-align: center;
-                            }
-                            
-                            #team {
-                                position: relative;
-                                height: 800px;
-                            }
-                            
-                            #team .the-team {
-                                background-image: url("./static/img/the-team@2x.png");
-                                background-position: center;
-                                background-repeat: no-repeat;
-                                background-size: cover;
-                                height: 500px;
-                            }
-                            
-                            #team .box-team {
-                                position: absolute;
-                                top: 50px;
-                            }
-                            
-                            #team .box-team .title {
-                                border-left: 5px solid #e8418f;
-                                padding-top: 5px;
-                            }
-                            
-                            #team .team1 {
-                                padding-top: 8em;
-                            }
-                            
-                            #team .team2 {
-                                padding-top: 12em;
-                            }
-                            
-                            #team .team3 {
-                                padding-top: 6em;
-                            }
-                            
-                            #team .social .icon-color {
-                                color: #e8418f;
-                                transition: all 0.3s ease 0s;
-                            }
-                            
-                            #team .social .icon-color:hover {
-                                color: #272859;
-                            }
-                            
-                            .icon-btn {
-                                border-bottom: 0px !important;
-                            }
-                            
-                            .icon-btn:hover {
-                                color: #272859;
-                                border-bottom: 5px solid #272859;
-                            }
-                            
-                            #footer {
-                                position: relative;
-                            }
-                            
-                            #footer .footer-blue {
-                                background-color: #272859;
-                            }
-                            
-                            #footer .footer-blue h2 {
-                                color: #ffffff;
-                            }
-                            
-                            #footer .footer-blue .title {
-                                border-left: 5px solid #e8418f;
-                                padding-top: 5px;
-                                color: #ffffff;
-                                margin-top: 0em;
-                            }
-                            
-                            #footer .footer-blue .title h1 {
-                                margin-top: 0em;
-                            }
-                            
-                            #footer .footer-blue .contact-name {
-                                padding: 1em 2em;
-                            }
-                            
-                            #footer .footer-blue .contact-name a {
-                                padding-bottom: 0.6em;
-                            }
-                            
-                            #footer .footer-blue .contact-name a:hover {
-                                color: #ffffff;
-                            }
-                            
-                            #footer .footer-blue .nav-footer {
-                                display: inline-flex;
-                                text-decoration: none;
-                                float: right;
-                                padding-top: 1.2em;
-                                padding-right: 2em;
-                            }
-                            
-                            #footer .footer-blue .nav-item a {
-                                padding: 0.6em 0em;
-                                margin: 0em 0.6em;
-                            }
-                            
-                            #footer .footer-blue .nav-item a:hover {
-                                color: #ffffff;
-                                border-bottom: 5px solid #ffffff;
-                            }
-                            
-                            .blockchain {
-                                background-image: url("./static/img/Icon-blockchain.svg");
-                                background-size: contain;
-                                width: 90px;
-                                height: 120px;
-                                margin: 17px 20px;
-                            }
-                            
-                            .conversational {
-                                background-image: url("./static/img/icon-conversational.svg");
-                                background-size: contain;
-                                width: 96px;
-                                height: 110px;
-                                display: inline-block;
-                                margin: 20px;
-                            }
-                            
-                            .data {
-                                background-image: url("./static/img/icon-data.svg");
-                                background-size: contain;
-                                width: 90px;
-                                height: 99px;
-                                margin: 10px 0px;
-                            }
-                            
-                            .consulting {
-                                background-image: url("./static/img/icon-consulting.svg");
-                                background-size: contain;
-                                width: 90px;
-                                height: 120px;
-                                position: relative;
-                                margin: 20px;
-                            }
-                            
-                            .innovation {
-                                background-image: url("./static/img/icon-innovation.svg");
-                                background-size: contain;
-                                width: 65px;
-                                height: 120px;
-                                position: relative;
-                                margin: 20px;
-                            }
-                            
-                            .improvement {
-                                background-image: url("./static/img/icon-improvement.svg");
-                                background-size: contain;
-                                width: 82px;
-                                height: 120px;
-                                position: relative;
-                                margin: 20px;
-                            }
-                            
-                            @media (max-width: 992px) {
-                                .img-home {
-                                    display: none;
-                                }
-                                .welcome {
-                                    position: relative;
-                                    font-size: 7.0vw;
-                                    margin-top: 0em;
-                                    padding: 1em;
-                                    height: 800px;
-                                }
-                                .border-home-end {
-                                    display: none;
-                                }
-                                #technology img {
-                                    display: none;
-                                }
-                                #work .col-lg-4 {
-                                    padding-top: 50px;
-                                    padding-bottom: 50px;
-                                }
-                                #team {
-                                    height: 100%;
-                                }
-                                #team .the-team {
-                                    display: none;
-                                }
-                                #team .box-team {
-                                    position: relative;
-                                }
-                                #team .box-team .title {
-                                    margin-top: 1em;
-                                }
-                                #team .box-team .text {
-                                    background-color: #ffff02;
-                                    padding-bottom: 3em;
-                                }
-                                #team .box-team .team1,
-                                #team .box-team .team2,
-                                #team .box-team .team3 {
-                                    padding-top: 3em;
-                                    padding-bottom: 3em;
-                                }
-                                #footer .footer-blue {
-                                    padding: 4em 2em;
-                                }
-                                #footer .footer-blue .title {
-                                    text-align: center;
-                                    border-left: 0px;
-                                    padding-left: 0px;
-                                }
-                                #footer .footer-blue h2 {
-                                    text-align: center;
-                                }
-                                #footer .footer-blue a {
-                                    text-align: center;
-                                }
-                                #footer .footer-blue .nav-footer {
-                                    display: none;
-                                }
-                                #footer .footer-blue .contact-name {
-                                    text-align: center;
-                                }
-                                .navbar-dark {
-                                    box-shadow: 0px 0px 20px rgba(2, 4, 145, 0.4);
-                                    background-color: #272859;
-                                    transition: all 0.3s ease 0s;
-                                }
-                                .navbar {
-                                    padding: 0rem 1rem;
-                                }
-                                .navbar-nav {
-                                    padding: 5rem 0rem;
-                                }
-                            }
-                            
-                            .navbar-toggler {
-                                float: right;
-                                position: fixed;
-                                right: 0px;
-                                top: 13px;
-                            }
-                            
-                            .navbar-dark .navbar-toggler {
-                                color: #ffffff;
-                                border-color: #272859;
-                                border: 0px;
-                            }
-                            
-                            .navbar-dark .navbar-toggler:visited {
-                                border: 0px;
-                            }
-                            /* --------- Developer new changes --------- */
-                            
-                            .dark-section {
-                                background-color: #272859;
-                            }
-                            
-                            .secondary-section {
-                                padding-bottom: 70px;
-                            }
-                            
-                            .text-inverse {
-                                color: white !important;
-                            }
-                            
-                            .legal-title {
-                                padding-bottom: 30px;
-                                font-size: 1.2rem;
-                            }
-                            
-                            .chatbots-es {
-                                margin-bottom: 1.0em;
-                            }
-                            
-                            .chatbots-logo {
-                                width: 300px;
-                                margin-top: 90px;
-                            }
-                            
-                            .neon-button {
-                                color: #272859;
-                                background-color: #FFFF02;
-                                padding: 15px 30px;
-                                margin-left: 15px;
-                                border-bottom: 5px solid transparent;
-                            }
-                            
-                            .podcast-iframe {
-                                margin-top: 90px;
-                                padding-left: 50px;
-                            }
-                            
-                            .subscribe-spotify {
-                                margin-left: 150px;
-                            }
-                            
-                            .whitepaper-block {
-                                margin: auto;
-                                background-image: url('./static/img/whitepaper-block-background.jpg');
-                                background-repeat: no-repeat;
-                                background-position: center;
-                                padding: 30px 50px;
-                                margin-bottom: 30px;
-                                text-align: center;
-                                -webkit-border-radius: 15px;
-                                -moz-border-radius: 15px;
-                                border-radius: 15px;
-                                border: none;
-                            }
-                            
-                            .whitepaper-block div {
-                                display: flex;
-                                justify-content: center;
-                                padding: 0px;
-                            }
-                            
-                            .whitepaper-block div a {
-                                flex-basis: 50%;
-                            }
-                            
-                            .whitepaper-header {
-                                margin-bottom: 20px;
-                                margin-top: 30px;
-                            }
-                            
-                            .spotify-button {
-                                margin-top: 22px;
-                                margin-left: auto;
-                                display: flex;
-                                justify-content: flex-end;
-                            }
-                            
-                            .footer-logo {
-                                margin-top: 8px;
-                            }
-                            
-                            .no-padding {
-                                padding: 0px;
-                            }
-                            
-                            @media only screen and (max-width: 600px) {
-                                body {
-                                    overflow-x: hidden;
-                                }
-                                .how-we-work,
-                                .welcome {
-                                    height: inherit;
-                                }
-                                .how-we-work {
-                                    background-size: contain;
-                                }
-                                #technology .space {
-                                    padding: 1em 0em;
-                                }
-                                .chatbots-logo-container,
-                                .col-chatbot {
-                                    text-align: center;
-                                }
-                                .chatbots-es {
-                                    word-wrap: break-word;
-                                    font-size: 40px;
-                                    padding: 0 20px;
-                                }
-                                .chatbots-logo {
-                                    width: 200px;
-                                    margin-top: 50px;
-                                }
-                                .podcast-iframe {
-                                    padding: 0 20px;
-                                    text-align: center;
-                                    margin-top: 30px;
-                                }
-                                .secondary-section h1 {
-                                    font-size: 40px;
-                                    padding: 0 20px;
-                                    margin-top: 30px;
-                                }
-                                .whitepaper-header {
-                                    padding-left: 0;
-                                }
-                                .whitepaper-block {
-                                    margin: 0 10px 30px;
-                                    padding: 30px 15px;
-                                }
-                                .whitepaper-block .neon-button {
-                                    padding: 10px 30px;
-                                }
-                                .legal-title {
-                                    padding-bottom: 0;
-                                }
-                                /* --------- End Developer new changes --------- */
+                                                                @import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+                                                            html,
+                                                            body {
+                                                                font-family: 'Lato', sans-serif;
+                                                            }
+                                                            
+                                                            h1,
+                                                            h2,
+                                                            h3,
+                                                            h4,
+                                                            h5,
+                                                            h6 p {
+                                                                font-family: 'Lato', sans-serif;
+                                                            }
+                                                            
+                                                            h1 {
+                                                                font-weight: 900;
+                                                                font-size: 50px;
+                                                                color: #272859;
+                                                                margin-top: 2em;
+                                                                padding-left: 12px;
+                                                            }
+                                                            
+                                                            h2 {
+                                                                font-size: 1.8em;
+                                                                font-weight: 900;
+                                                            }
+                                                            
+                                                            h3 {
+                                                                font-size: 1.6em;
+                                                                font-weight: 900;
+                                                                padding-top: 0.5em;
+                                                            }
+                                                            
+                                                            p {
+                                                                font-weight: 700;
+                                                                color: #272859;
+                                                            }
+                                                            
+                                                            a {
+                                                                font-family: 'Lato', sans-serif;
+                                                                color: #e8418f;
+                                                                font-weight: 700;
+                                                                border-bottom: 5px solid #e8418f;
+                                                                transition: all 0.3s ease 0s;
+                                                            }
+                                                            
+                                                            a:hover {
+                                                                color: #272859;
+                                                                border-bottom: 5px solid #272859;
+                                                            }
+                                                            
+                                                            pink {
+                                                                color: #e8418f;
+                                                            }
+                                                            
+                                                            .masthead .col-lg-6 {
+                                                                padding-right: 0px;
+                                                                padding-left: 0px;
+                                                            }
+                                                            
+                                                            .masthead .col-lg-6 img {
+                                                                width: 100%;
+                                                                height: 100%;
+                                                            }
+                                                            
+                                                            .masthead .box {
+                                                                background-color: #272859;
+                                                            }
+                                                            
+                                                            .masthead .icon-tnp {
+                                                                width: 200px;
+                                                                height: 200px;
+                                                            }
+                                                            
+                                                            .border-home {
+                                                                border-left: 20px solid #e8418f;
+                                                            }
+                                                            
+                                                            .border-home-end {
+                                                                border-left: 20px solid #e8418f;
+                                                                height: 5em;
+                                                            }
+                                                            
+                                                            .circle-home {
+                                                                position: absolute;
+                                                                left: -50px;
+                                                                top: 60px;
+                                                                width: 100px;
+                                                            }
+                                                            
+                                                            .welcome {
+                                                                position: absolute;
+                                                                color: #ffffff;
+                                                                font-size: 2.7vw;
+                                                                padding: 2em;
+                                                                bottom: 0px;
+                                                            }
+                                                            
+                                                            .welcome strong {
+                                                                font-size: 10vw;
+                                                            }
+                                                            /*---button---*/
+                                                            
+                                                            .btn-yellow {
+                                                                color: #272859;
+                                                                background-color: #ffff02;
+                                                                border-radius: none;
+                                                                padding: 0.6em 4em;
+                                                                font-weight: 900;
+                                                                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+                                                                transition: all 0.3s ease 0s;
+                                                                cursor: pointer;
+                                                                outline: none;
+                                                            }
+                                                            
+                                                            .btn-yellow:hover {
+                                                                background-color: #e8418f;
+                                                                box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+                                                                transform: translateY(-7px);
+                                                                color: #ffffff;
+                                                                border-bottom: none;
+                                                            }
+                                                            
+                                                            .navbar-dark .navbar-nav .nav-link {
+                                                                color: #ffffff;
+                                                                border-bottom: 5px solid #e8418f;
+                                                                margin: 0 0.5em;
+                                                            }
+                                                            
+                                                            .navbar-dark .navbar-nav .nav-link:hover {
+                                                                color: #e8418f;
+                                                            }
+                                                            
+                                                            .navbar-dark .navbar-nav .nav-link:active {
+                                                                color: #e8418f;
+                                                            }
+                                                            
+                                                            .navbar-dark .navbar-nav .nav-link.active {
+                                                                color: #e8418f;
+                                                            }
+                                                            
+                                                            .navbar-dark .navbar-nav .nav-link:focus {
+                                                                color: #e8418f;
+                                                            }
+                                                            
+                                                            #logo {
+                                                                display: none;
+                                                                border-bottom: none;
+                                                            }
+                                                            
+                                                            #mainNav.navbar-shrink {
+                                                                box-shadow: 0px 0px 20px rgba(2, 4, 145, 0.4);
+                                                                background-color: #272859;
+                                                                transition: all 0.3s ease 0s;
+                                                            }
+                                                            /*--- about us ---*/
+                                                            
+                                                            #technology .title {
+                                                                border-left: 5px solid #e8418f;
+                                                                padding-top: 5px;
+                                                            }
+                                                            
+                                                            #technology .text-box .img {
+                                                                width: 100%;
+                                                            }
+                                                            
+                                                            #technology .text-box p {
+                                                                max-width: 368px;
+                                                            }
+                                                            
+                                                            #technology .image-right-box {
+                                                                text-align: right;
+                                                            }
+                                                            
+                                                            #technology .space {
+                                                                padding: 4em 0em;
+                                                            }
+                                                            
+                                                            #work .how-we-work {
+                                                                background-image: url("./static/img/work@2x.png");
+                                                                background-position: center;
+                                                                background-repeat: no-repeat;
+                                                                background-size: cover;
+                                                                height: 500px;
+                                                                -webkit-transform: translateX(0);
+                                                                -moz-transform: translateX(0);
+                                                                -ms-transform: translateX(0);
+                                                                -o-transform: translateX(0);
+                                                                transform: translateX(0);
+                                                            }
+                                                            
+                                                            #work .how-we-work .box-services {
+                                                                padding-bottom: 4em;
+                                                            }
+                                                            
+                                                            #work .how-we-work .box-services .title {
+                                                                border-left: 5px solid #e8418f;
+                                                                padding-top: 5px;
+                                                            }
+                                                            
+                                                            #work .box {
+                                                                padding-top: 3em;
+                                                            }
+                                                            
+                                                            #work .box .icons {
+                                                                height: 150px;
+                                                            }
+                                                            
+                                                            #work .box .icons img {
+                                                                padding-top: 1em;
+                                                            }
+                                                            
+                                                            #work .box h2,
+                                                            #work .box p,
+                                                            #work .box img {
+                                                                text-align: center;
+                                                            }
+                                                            
+                                                            #team {
+                                                                position: relative;
+                                                                height: 800px;
+                                                            }
+                                                            
+                                                            #team .the-team {
+                                                                background-image: url("./static/img/the-team@2x.png");
+                                                                background-position: center;
+                                                                background-repeat: no-repeat;
+                                                                background-size: cover;
+                                                                height: 500px;
+                                                            }
+                                                            
+                                                            #team .box-team {
+                                                                position: absolute;
+                                                                top: 50px;
+                                                            }
+                                                            
+                                                            #team .box-team .title {
+                                                                border-left: 5px solid #e8418f;
+                                                                padding-top: 5px;
+                                                            }
+                                                            
+                                                            #team .team1 {
+                                                                padding-top: 8em;
+                                                            }
+                                                            
+                                                            #team .team2 {
+                                                                padding-top: 12em;
+                                                            }
+                                                            
+                                                            #team .team3 {
+                                                                padding-top: 6em;
+                                                            }
+                                                            
+                                                            #team .social .icon-color {
+                                                                color: #e8418f;
+                                                                transition: all 0.3s ease 0s;
+                                                            }
+                                                            
+                                                            #team .social .icon-color:hover {
+                                                                color: #272859;
+                                                            }
+                                                            
+                                                            .icon-btn {
+                                                                border-bottom: 0px !important;
+                                                            }
+                                                            
+                                                            .icon-btn:hover {
+                                                                color: #272859;
+                                                                border-bottom: 5px solid #272859;
+                                                            }
+                                                            
+                                                            #footer {
+                                                                position: relative;
+                                                            }
+                                                            
+                                                            #footer .footer-blue {
+                                                                background-color: #272859;
+                                                            }
+                                                            
+                                                            #footer .footer-blue h2 {
+                                                                color: #ffffff;
+                                                            }
+                                                            
+                                                            #footer .footer-blue .title {
+                                                                border-left: 5px solid #e8418f;
+                                                                padding-top: 5px;
+                                                                color: #ffffff;
+                                                                margin-top: 0em;
+                                                            }
+                                                            
+                                                            #footer .footer-blue .title h1 {
+                                                                margin-top: 0em;
+                                                            }
+                                                            
+                                                            #footer .footer-blue .contact-name {
+                                                                padding: 1em 2em;
+                                                            }
+                                                            
+                                                            #footer .footer-blue .contact-name a {
+                                                                padding-bottom: 0.6em;
+                                                            }
+                                                            
+                                                            #footer .footer-blue .contact-name a:hover {
+                                                                color: #ffffff;
+                                                            }
+                                                            
+                                                            #footer .footer-blue .nav-footer {
+                                                                display: inline-flex;
+                                                                text-decoration: none;
+                                                                float: right;
+                                                                padding-top: 1.2em;
+                                                                padding-right: 2em;
+                                                            }
+                                                            
+                                                            #footer .footer-blue .nav-item a {
+                                                                padding: 0.6em 0em;
+                                                                margin: 0em 0.6em;
+                                                            }
+                                                            
+                                                            #footer .footer-blue .nav-item a:hover {
+                                                                color: #ffffff;
+                                                                border-bottom: 5px solid #ffffff;
+                                                            }
+                                                            
+                                                            .blockchain {
+                                                                background-image: url("./static/img/Icon-blockchain.svg");
+                                                                background-size: contain;
+                                                                width: 90px;
+                                                                height: 120px;
+                                                                margin: 17px 20px;
+                                                            }
+                                                            
+                                                            .conversational {
+                                                                background-image: url("./static/img/icon-conversational.svg");
+                                                                background-size: contain;
+                                                                width: 96px;
+                                                                height: 110px;
+                                                                display: inline-block;
+                                                                margin: 20px;
+                                                            }
+                                                            
+                                                            .data {
+                                                                background-image: url("./static/img/icon-data.svg");
+                                                                background-size: contain;
+                                                                width: 90px;
+                                                                height: 99px;
+                                                                margin: 10px 0px;
+                                                            }
+                                                            
+                                                            .consulting {
+                                                                background-image: url("./static/img/icon-consulting.svg");
+                                                                background-size: contain;
+                                                                width: 90px;
+                                                                height: 120px;
+                                                                position: relative;
+                                                                margin: 20px;
+                                                            }
+                                                            
+                                                            .innovation {
+                                                                background-image: url("./static/img/icon-innovation.svg");
+                                                                background-size: contain;
+                                                                width: 65px;
+                                                                height: 120px;
+                                                                position: relative;
+                                                                margin: 20px;
+                                                            }
+                                                            
+                                                            .improvement {
+                                                                background-image: url("./static/img/icon-improvement.svg");
+                                                                background-size: contain;
+                                                                width: 82px;
+                                                                height: 120px;
+                                                                position: relative;
+                                                                margin: 20px;
+                                                            }
+                                                            
+                                                            @media (max-width: 992px) {
+                                                                .img-home {
+                                                                    display: none;
+                                                                }
+                                                                .welcome {
+                                                                    position: relative;
+                                                                    font-size: 7.0vw;
+                                                                    margin-top: 0em;
+                                                                    padding: 1em;
+                                                                    height: 800px;
+                                                                }
+                                                                .border-home-end {
+                                                                    display: none;
+                                                                }
+                                                                #technology img {
+                                                                    display: none;
+                                                                }
+                                                                #work .col-lg-4 {
+                                                                    padding-top: 50px;
+                                                                    padding-bottom: 50px;
+                                                                }
+                                                                #team {
+                                                                    height: 100%;
+                                                                }
+                                                                #team .the-team {
+                                                                    display: none;
+                                                                }
+                                                                #team .box-team {
+                                                                    position: relative;
+                                                                }
+                                                                #team .box-team .title {
+                                                                    margin-top: 1em;
+                                                                }
+                                                                #team .box-team .text {
+                                                                    background-color: #ffff02;
+                                                                    padding-bottom: 3em;
+                                                                }
+                                                                #team .box-team .team1,
+                                                                #team .box-team .team2,
+                                                                #team .box-team .team3 {
+                                                                    padding-top: 3em;
+                                                                    padding-bottom: 3em;
+                                                                }
+                                                                .team3 .social {
+                                                                    padding-bottom: 3em;
+                                                                }
+                                                                #footer .footer-blue {
+                                                                    padding: 4em 2em;
+                                                                }
+                                                                #footer .footer-blue .title {
+                                                                    text-align: center;
+                                                                    border-left: 0px;
+                                                                    padding-left: 0px;
+                                                                }
+                                                                #footer .footer-blue h2 {
+                                                                    text-align: center;
+                                                                }
+                                                                #footer .footer-blue a {
+                                                                    text-align: center;
+                                                                }
+                                                                #footer .footer-blue .nav-footer {
+                                                                    display: none;
+                                                                }
+                                                                #footer .footer-blue .contact-name {
+                                                                    text-align: center;
+                                                                }
+                                                                .navbar-dark {
+                                                                    box-shadow: 0px 0px 20px rgba(2, 4, 145, 0.4);
+                                                                    background-color: #272859;
+                                                                    transition: all 0.3s ease 0s;
+                                                                }
+                                                                .navbar {
+                                                                    padding: 0rem 1rem;
+                                                                }
+                                                                .navbar-nav {
+                                                                    padding: 5rem 0rem;
+                                                                }
+                                                            }
+                                                            
+                                                            .navbar-toggler {
+                                                                float: right;
+                                                                position: fixed;
+                                                                right: 0px;
+                                                                top: 13px;
+                                                            }
+                                                            
+                                                            .navbar-dark .navbar-toggler {
+                                                                color: #ffffff;
+                                                                border-color: #272859;
+                                                                border: 0px;
+                                                            }
+                                                            
+                                                            .navbar-dark .navbar-toggler:visited {
+                                                                border: 0px;
+                                                            }
+                                                            /* --------- Developer new changes --------- */
+                                                            
+                                                            .dark-section {
+                                                                background-color: #272859;
+                                                            }
+                                                            
+                                                            .secondary-section {
+                                                                padding-bottom: 70px;
+                                                            }
+                                                            
+                                                            .text-inverse {
+                                                                color: white !important;
+                                                            }
+                                                            
+                                                            .legal-title {
+                                                                padding-bottom: 30px;
+                                                                font-size: 1.2rem;
+                                                            }
+                                                            
+                                                            .chatbots-es {
+                                                                margin-bottom: 1.0em;
+                                                            }
+                                                            
+                                                            .chatbots-logo {
+                                                                width: 300px;
+                                                                margin-top: 90px;
+                                                            }
+                                                            
+                                                            .neon-button {
+                                                                color: #272859;
+                                                                background-color: #FFFF02;
+                                                                padding: 15px 30px;
+                                                                margin-left: 15px;
+                                                                border-bottom: 5px solid transparent;
+                                                            }
+                                                            
+                                                            .podcast-iframe {
+                                                                margin-top: 90px;
+                                                                padding-left: 50px;
+                                                            }
+                                                            
+                                                            .subscribe-spotify {
+                                                                margin-left: 150px;
+                                                            }
+                                                            
+                                                            .whitepaper-block {
+                                                                margin: auto;
+                                                                background-image: url('./static/img/whitepaper-block-background.jpg');
+                                                                background-repeat: no-repeat;
+                                                                background-position: center;
+                                                                padding: 30px 50px;
+                                                                margin-bottom: 30px;
+                                                                text-align: center;
+                                                                -webkit-border-radius: 15px;
+                                                                -moz-border-radius: 15px;
+                                                                border-radius: 15px;
+                                                                border: none;
+                                                            }
+                                                            
+                                                            .whitepaper-block div {
+                                                                display: flex;
+                                                                justify-content: center;
+                                                                padding: 0px;
+                                                            }
+                                                            
+                                                            .whitepaper-block div a {
+                                                                flex-basis: 50%;
+                                                            }
+                                                            
+                                                            .whitepaper-header {
+                                                                margin-bottom: 20px;
+                                                                margin-top: 30px;
+                                                            }
+                                                            
+                                                            .spotify-button {
+                                                                margin-top: 22px;
+                                                                margin-left: auto;
+                                                                display: flex;
+                                                                justify-content: flex-end;
+                                                            }
+                                                            
+                                                            .footer-logo {
+                                                                margin-top: 8px;
+                                                            }
+                                                            
+                                                            .no-padding {
+                                                                padding: 0px;
+                                                            }
+                                                            
+                                                            @media only screen and (max-width: 600px) {
+                                                                body {
+                                                                    overflow-x: hidden;
+                                                                }
+                                                                .how-we-work,
+                                                                .welcome {
+                                                                    height: inherit;
+                                                                }
+                                                                .how-we-work {
+                                                                    background-size: contain;
+                                                                }
+                                                                #technology .space {
+                                                                    padding: 1em 0em;
+                                                                }
+                                                                .chatbots-logo-container,
+                                                                .col-chatbot {
+                                                                    text-align: center;
+                                                                }
+                                                                .chatbots-es {
+                                                                    word-wrap: break-word;
+                                                                    font-size: 40px;
+                                                                    padding: 0 20px;
+                                                                }
+                                                                .chatbots-logo {
+                                                                    width: 200px;
+                                                                    margin-top: 50px;
+                                                                }
+                                                                .podcast-iframe {
+                                                                    padding: 0 20px;
+                                                                    text-align: center;
+                                                                    margin-top: 30px;
+                                                                }
+                                                                .secondary-section h1 {
+                                                                    font-size: 40px;
+                                                                    padding: 0 20px;
+                                                                    margin-top: 30px;
+                                                                }
+                                                                .whitepaper-header {
+                                                                    padding-left: 0;
+                                                                }
+                                                                .whitepaper-block {
+                                                                    margin: 0 10px 30px;
+                                                                    padding: 30px 15px;
+                                                                }
+                                                                .whitepaper-block .neon-button {
+                                                                    padding: 10px 30px;
+                                                                }
+                                                                .legal-title {
+                                                                    padding-bottom: 0;
+                                                                }
+                                                                /* --------- End Developer new changes --------- */
